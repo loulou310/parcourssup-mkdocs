@@ -1,17 +1,4 @@
-# Welcome to MkDocs
+# 🏡 Accueil
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Bienvenue sur ma page GitHub  
+Sur cette page vous pourrez trouver les différents projets en programmation, que ce soit personnellement ou en cours de NSI. Vous pouvez naviguer a travers ce site grâce a la barre de navigation en haut de la page.
