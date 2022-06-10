@@ -49,20 +49,29 @@ markdown_extensions:
     - pymdownx.caret                # Passage ^^souligné^^ ou en ^exposant^.
     - pymdownx.mark                 # Passage ==surligné==.
     - pymdownx.tilde                # Passage ~~barré~~ ou en ~indice~.
-
-    - pymdownx.superfences:
-        custom_fences:
-          - name: mermaid
-            class: mermaid
-            format: !!python/name:pymdownx.superfences.fence_code_format
-
-
-
-    - pymdownx.arithmatex:
-        generic: true
-    - toc:
-        permalink: ⚓︎
-        toc_depth: 3
+    - pymdownx.highlight:           # Coloration syntaxique du code
+        auto_title: true
+        use_pygments: true
+        auto_title_map:
+            "Python": "🐍 Script Python"
+            "Python Console Session": "🐍 Console Python"
+            "Text Only": "📋 Texte"
+            "E-mail": "📥 Entrée"
+            "Text Output": "📤 Sortie"
+            "Javascript": "Javascript"
+    - pymdownx.inlinehilite         # pour  `#!python  <python en ligne>`
+    - pymdownx.snippets             # Inclusion de fichiers externe.
+    - pymdownx.tasklist:            # Cases à cocher  - [ ]  et - [x]
+        custom_checkbox:    false   #   avec cases d'origine
+        clickable_checkbox: true    #   et cliquables.
+    - pymdownx.tabbed:              # Volets glissants.  === "Mon volet"
+        alternate_style: true 
+    - pymdownx.keys:                # Touches du clavier.  ++ctrl+d++
+        separator: "\uff0b"
+    - pymdownx.emoji:               # Émojis  :boom:
+        emoji_index:     !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.superfences
 
 plugins:
   - awesome-pages:
