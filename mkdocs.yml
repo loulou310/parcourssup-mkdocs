@@ -58,7 +58,7 @@ markdown_extensions:
             "Text Only": "📋 Texte"
             "E-mail": "📥 Entrée"
             "Text Output": "📤 Sortie"
-            "Javascript": "Javascript"
+            
     - pymdownx.inlinehilite         # pour  `#!python  <python en ligne>`
     - pymdownx.snippets             # Inclusion de fichiers externe.
     - pymdownx.tasklist:            # Cases à cocher  - [ ]  et - [x]
