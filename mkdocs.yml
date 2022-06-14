@@ -36,6 +36,7 @@ theme:
         - navigation.top
         - toc.integrate
         - header.autohide
+        - content.code.annotate
 
 markdown_extensions:
     - meta

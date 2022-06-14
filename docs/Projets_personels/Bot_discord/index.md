@@ -35,5 +35,5 @@ Voici l'aide syntaxique proposée par Discord. Le type d'argument à donner est 
 
 D'autres commandes et fonctionnalités arriverons bientôt, au fur et a mesure que j'effectue la migration depuis la version 8 de l'API
 
-Les ressources que j'ai utilisées sont le guide officiel de la librairie Discord.js ainsi que sa documentation.  -
+Les ressources que j'ai utilisées sont le guide officiel de la librairie Discord.js ainsi que sa documentation.  
 Lien du repository : <a href="https://github.com/loulou310/bot-framework">Lien</a>

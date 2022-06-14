@@ -37,13 +37,15 @@ function binDec(n) {
 ```
 
 ```js title="Conversion d'un nombre décimal en hexadécimal"
-let result =""
-while(n != 0) {
-    reste = n%16
-    result = hexMap.get(reste) + result
-    n = Math.floor(n/16)
+function decHex(n) {
+    let result =""
+    while(n != 0) {
+        reste = n%16
+        result = hexMap.get(reste) + result // hexMap est une Map qui associe chaque caractère hexadécimal à un nombre.
+        n = Math.floor(n/16)
+    }
+    return result
 }
-return result
 ```
 
 <a href="./convertisseur/index.html">Y accéder</a>
